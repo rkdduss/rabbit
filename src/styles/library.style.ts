@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 export const LibraryWrap = styled(View)`
   flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -16,28 +15,47 @@ export const BookMarkGrid = styled(View)`
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 24px;
+`
+
+export const PlanWrap = styled(View)`
+  padding: 0 20px;
+`
+export const SectionContainer = styled(View)`
+  padding-left: 20px;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 16px;
+`
+
+export const SectionText = styled(Text)`
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+`
+export const SectionSubText = styled(Text)`
+  font-size: 17px;
+  font-weight: 500;
+  color: #929BAD;
+`
+export const Content = styled(View)`
+  width: 100%;
+  flex: 1;
+  padding-top: 55px;
+  justify-content: flex-start;
 `
 
 export const MyFollowSection = styled(View)`
-  flex-direction: row;
-  justify-content: flex-start; 
-  gap: 8px;
-  width: 100%;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    width: 100%;
 `
-
-
-export const Content = styled(View)`
-  flex: 1;
-  padding-top :100px;
-  justify-content: flex-start;
-  align-items: center;
-`
-
 export const MyFollowScrollSection = styled(ScrollView).attrs(() => ({
     horizontal: true,
     showsHorizontalScrollIndicator: false,
   }))`
-    margin-top: 16px;
-    padding-left: 8px;
+    padding-left: 28px;
+    padding-top: 8px;
   `
-  

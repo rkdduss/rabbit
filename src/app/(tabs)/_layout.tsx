@@ -10,8 +10,10 @@ export default function TabLayout() {
           borderColor: '#929BAD'
         }
       }}>
+      <Tabs.Screen name="profile"/>
       <Tabs.Screen name="lecture"/>
       <Tabs.Screen name="explore"/>
+      <Tabs.Screen name="library"/>
       <Tabs.Screen name="reelList"/>
     </Tabs>
   );

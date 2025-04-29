@@ -2,10 +2,11 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Container, Spacer } from '../../theme/GlobalStyle'
 import Header from '../../components/Header/Header'
+import { BannerImage, ProfileContainer, ProfileContent } from '../../styles/profile.style'
 
 export default function profile() {
   return (
-    <Container>
+    <ProfileContainer>
         <Header 
             icon='person-circle-outline' 
             iconSize={23}
@@ -14,7 +15,9 @@ export default function profile() {
             subIconSize={30}
             subIconAction={() => {}}
         />
-        <Spacer />
-    </Container>
+        <ProfileContent>
+            <BannerImage source={require('/Users/dgsw07/Desktop/ReactNative/rabbit/assets/profileImage.jpg')}/>
+        </ProfileContent>
+    </ProfileContainer>
   )
 }

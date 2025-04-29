@@ -16,7 +16,7 @@ export default function RootLayout() {
     <Root>
     <ThemeProvider theme={theme}>
       <SafeAreaProvider>
-        <Stack>
+        <Stack initialRouteName='(tabs)'>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="pages" options={{ headerShown: false }} />
         </Stack>

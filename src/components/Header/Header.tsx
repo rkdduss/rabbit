@@ -9,7 +9,7 @@ import { HeaderContent, HeaderText, HeaderWrap } from './Header.style';
 
 export default function Header({ icon, iconSize, text, subIcon, subIconSize, subIconAction}: HeaderProps) {
   return (
-    <SafeAreaView style={{width: '100%'}}>
+    <SafeAreaView style={{width: '100%', zIndex:1}}>
         <HeaderWrap>
         <HeaderContent>
             <Icon name={icon} size={iconSize} color="#FF3B79"></Icon>
