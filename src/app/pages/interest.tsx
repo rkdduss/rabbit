@@ -33,6 +33,7 @@ export default function Interest({ onToggle, isOn }: Props) {
     "요리", 
     "Flutter", 
     "커피", 
+    
     "디자인",
     "기술", 
     "HTML", 
