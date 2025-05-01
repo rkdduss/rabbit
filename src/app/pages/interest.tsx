@@ -39,7 +39,7 @@ export default function Interest({ onToggle, isOn }: Props) {
     "HTML", 
     "iOS", 
     "개발", 
-    "서민덕"
+    "아이폰"
   ]);
 
 
