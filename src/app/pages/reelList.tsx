@@ -17,7 +17,7 @@ const data = [
   {
     id: '2',
     name: '김강연',
-    title: '병원 ㅈ같다',
+    title: '병원 ',
     badge: 'false',
     category: 'vlog',
     reelImage: '/Users/dgsw07/Desktop/ReactNative/rabbit/assets/IMG_3839.png',
@@ -33,7 +33,7 @@ const data = [
   {
     id: '4',
     name: '서민덕',
-    title: '아 배고파시발',
+    title: '아 배고파',
     badge: 'true',
     category: 'daily',
     reelImage: '/Users/dgsw07/Desktop/ReactNative/rabbit/assets/IMG_4565.png',
